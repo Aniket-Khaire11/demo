@@ -23,8 +23,13 @@ class Student {
 }
 
 public class StudentSystem {
+     public static void main(String[] args) {
+         
+        Scanner input = new Scanner(System.in);
+        ArrayList<Student> students = new ArrayList<>();
+
         
-        System.out.println("=== Student Record System ===");
+        System.out.println("=== Student Record System ===")
         System.out.print("How many students to enter? ");
         
         // Basic check to ensure the user enters a number
@@ -68,7 +73,4 @@ public class StudentSystem {
         
         input.close();
     }
-}    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        ArrayList<Student> students = new ArrayList<>();
-
+}   
