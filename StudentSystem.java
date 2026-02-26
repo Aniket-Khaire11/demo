@@ -6,7 +6,7 @@ import java.util.Scanner;
  * List Collections, and basic Input Validation.
  */
 class Student {
-    private String name
+    private String name;
     private double score;
 
     public Student(String name, double score) {
