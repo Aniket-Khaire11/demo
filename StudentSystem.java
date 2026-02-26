@@ -29,7 +29,7 @@ public class StudentSystem {
         ArrayList<Student> students = new ArrayList<>();
 
         
-        System.out.println("=== Student Record System ===")
+        System.out.println("=== Student Record System ===");
         System.out.print("How many students to enter? ");
         
         // Basic check to ensure the user enters a number
